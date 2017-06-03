@@ -17,7 +17,8 @@ The [Github issue tracker](https://github.com/FIUP/algotests/issues) is **only**
 
 ## Team
 [![FIUP](https://avatars2.githubusercontent.com/u/8012686?v=3&s=200)](https://github.com/orgs/FIUP/people)
-Wanna join? Why not? Checkout our [github page](https://github.com/FIUP), [drop and email](mailto:fiup.unipd@gmail.com) or follow us [on Facebook](https://www.facebook.com/groups/fiupd/)
+
+Wanna join? Why not? Checkout our [github page](https://github.com/FIUP), [drop and email](mailto:fiup.unipd@gmail.com) or follow us [on Facebook](https://www.facebook.com/groups/fiupd/)!
 
 
 ## License
