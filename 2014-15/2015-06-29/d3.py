@@ -16,35 +16,49 @@
 # limitations under the License.
 
 
-def is_max_heap(a):
-    """ DP step of finding palindrome subtring with max length """
-    
-    if i > j:  # over
-        return ""
-    
-    if i == j:  # same letter
-        return s[i]
-    
-    if s[i] == s[j]:
-        return s[i] + max_substr_pal_dp(s, i + 1, j - 1) + s[j] # possible palindrome
+def left_child_index(i):
+    """ Position in array of left child of node """
+
+    return 2 * (i + 1) - 1
+
+
+def right_child_index(i):
+    """ Position in array of right child of node """
+
+    return left_child_index(i) + 1
+
+
+def check_child(child, parent):
+    """ Check if child is children of parent in a max-heap """
+
+    if child is not None:
+        return child < parent
     else:
-        s1 = max_substr_pal_dp(s, i, j - 1)  # try all alternatives
-        s2 = max_substr_pal_dp(s, i + 1, j)
-        if len(s1) > len(s2):
-            return s1
+        return True
+
+
+def is_max_heap(a):
+    """ Check if array a is a max-heap """
+
+    for i in range(len(a)):
+        parent = a[i]
+
+        if left_child_index(i) in range(len(a)):
+            l_child = a[left_child_index(i)]  # left child of node
         else:
-            return s2
+            l_child = None
 
+        if right_child_index(i) in range(len(a)):
+            r_child = a[right_child_index(i)]  # right child of node
+        else:
+            r_child = None
 
-def max_substr_pal(s):
-    """ Finds palindrome subtring with max length """
-    
-    i = 0  # index of start of such substr
-    j = len(s) - 1  # index of end of such substr
-    maxs = ""  # such subtr
-    print(max_substr_pal_dp(s, i, j))
+        if (not check_child(l_child, parent)) or (not check_child(r_child, parent)):
+            return False
+
+    return True
 
 
 if __name__ == '__main__':
-    max_substr_pal("colonno")  # onno
-    max_substr_pal("colonna")  # olo
+    print(is_max_heap([10, 9, 8, 7, 6]))  # True
+    print(is_max_heap([10, 9, 8, 7, 11]))  # False
