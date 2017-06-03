@@ -16,11 +16,21 @@
 # limitations under the License.
 
 
-from numpy.random import randint
 from numpy.random import permutation
+from numpy.random import randint
 
 
 def min_ab(A, B):
+    """
+    :param A: list
+        List of numbers
+    :param B: list
+        Random permutation of A
+    :return: number
+        Minimum of A (and also B) found by not-comparing elements of the same array.
+        Complexity: O(n)
+    """
+
     n = len(A)
     i = j = 1
     while i != n and j != n:
@@ -31,14 +41,22 @@ def min_ab(A, B):
     return B[j]
 
 
-def get_AB(max_i, s):
+def get_AB(s, m=999999):
+    """
+    :param s: int
+        Size of output arrays
+    :param max_i: int
+        Max number in arrays
+    :return: list, list
+        A random list, a random permutation of first list
+    """
+
     a = randint(max_i, size=s)
     b = permutation(a)
     return list(a), list(b)
 
 
 if __name__ == '__main__':
-    m = 999999  # max int
     for s in [10, 100, 1000, 10000, 100000]:
-        a, b = get_AB(m, s)
+        a, b = get_AB(s)
         print(min_ab(a, b))

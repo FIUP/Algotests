@@ -17,8 +17,18 @@
 
 
 def max_substr_pal_dp(s, i, j):
-    """ DP step of finding palindrome subtring with max length """
-    
+    """
+    :param s: str
+        String
+    :param i: int
+        Index of such substring
+    :param j: int
+        Index of end of such substr
+    :return: str
+        Subtring with max length
+        Complexity: O(n²) with memoization
+    """
+
     if i > j:  # over
         return ""
     
@@ -37,7 +47,13 @@ def max_substr_pal_dp(s, i, j):
 
 
 def max_substr_pal(s):
-    """ Finds palindrome subtring with max length """
+    """
+    :param s: str
+        String
+    :return: void
+        Prints palindrome subtring with max length
+        Complexity: O(n²)
+    """
     
     i = 0  # index of start of such substr
     j = len(s) - 1  # index of end of such substr

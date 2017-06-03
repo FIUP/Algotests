@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - 2015-06-29 solutions
+- docs
 
 ## 0.0 - 2017-06-03
 

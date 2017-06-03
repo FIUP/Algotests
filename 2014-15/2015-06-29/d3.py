@@ -17,19 +17,36 @@
 
 
 def left_child_index(i):
-    """ Position in array of left child of node """
+    """
+    :param i: int
+        Index of node in array (that is organised as max-heap)
+    :return: int
+        Position in array of left child of node
+    """
 
     return 2 * (i + 1) - 1
 
 
 def right_child_index(i):
-    """ Position in array of right child of node """
+    """
+    :param i: int
+        Index of node in array (that is organised as max-heap)
+    :return: int
+        Position in array of right child of node
+    """
 
     return left_child_index(i) + 1
 
 
 def check_child(child, parent):
-    """ Check if child is children of parent in a max-heap """
+    """
+    :param child: number
+        Value of children of parent in a max-heap
+    :param parent: number
+        Value of parent in a max-heap
+    :return: bool
+        Check sif child is children of parent in a max-heap
+    """
 
     if child is not None:
         return child < parent
@@ -38,7 +55,12 @@ def check_child(child, parent):
 
 
 def is_max_heap(a):
-    """ Check if array a is a max-heap """
+    """
+    :param a: list
+        Array organized as max-heap
+    :return: bool
+        Checks if array a is a max-heap
+    """
 
     for i in range(len(a)):
         parent = a[i]
