@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - 2015-07-15 3q, es 1
+- third question from 2015-09-03 exam
+- 2016-17 exercises
+
+### Refactored
+- exam folder
 
 ## 0.1 - 2017-06-03
 

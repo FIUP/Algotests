@@ -1,6 +1,6 @@
 # algotests
 
-*Corpus of `Dati e Algoritmi` Unipd class tests since 2014/15.*
+*Corpus of `Dati e Algoritmi` Unipd class tests and exercises since 2014/15.*
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/licenses/Apache-2.0) [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
