@@ -28,7 +28,11 @@ def find_a_gap(a, start, end):
     :param end: int
         Index to end searching for a gap
     :return: int
-        Gap of a (i such that a[i + 1] - a[i] > 1. Divide-et-impera. Complexity: O(n)
+        Gap of a (i such that a[i + 1] - a[i] > 1. Divide-et-impera.
+        Complexity
+            T(n) = 3 * O(1) + 2 * T(n - 1)
+                 = O(1) + 2T(n - 1)
+                 = O(n)
     """
 
     if start >= end:  # out of bounds
