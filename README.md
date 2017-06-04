@@ -2,10 +2,10 @@
 
 *Corpus of `Dati e Algoritmi` Unipd class tests since 2014/15.*
 
-[![Python version](https://img.shields.io/badge/Python-3.5-blue.svg)](https://www.python.org/download/releases/3.4.0/) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/licenses/Apache-2.0) [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/licenses/Apache-2.0) [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Why is it useful?
-The code is writte in [![Python version](https://img.shields.io/badge/Python-3.5-blue.svg)](https://www.python.org/download/releases/3.4.0/) language, which is very easy to understand, so even if you don't know how to write code, you can browse the solutions and see how the algorithm works. For example
+We tried to write code easy to understand, so even if you don't know how to write code, you can browse the solutions and see how the algorithm works. For example
 ```shell
 def is_max_heap(a):
     """
@@ -35,11 +35,6 @@ def is_max_heap(a):
 ```
 is the optimal algorithm to check if the array is a max-heap.
 
-
-## Run
-```shell
-$ python3 [script to run]
-```
 
 
 ## Questions and issues
