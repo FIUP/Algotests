@@ -49,7 +49,7 @@ def check_child(child, parent):
     """
 
     if child is not None:
-        return child < parent
+        return child <= parent
     else:
         return True
 

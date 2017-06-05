@@ -7,6 +7,10 @@ All notable changes to this project will be documented in this file.
 - recursive insertion sort exercise
 - divide-et-impera duplicates finder exercise
 - sum key O(n) exercise
+- k smallest element in naive, minheap and maxheap ways
+
+### Fixed
+- pythonic recursive insertion sort exercise
 
 ## 0.1.1 - 2017-06-04   
 

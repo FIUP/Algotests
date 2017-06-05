@@ -42,9 +42,7 @@ def recursive_insertion_sort(a, end=0):
     index_of_item_to_sort = end  # index of element to sort
     for i in range(end - 1, -1, -1):  # cycle through all sorted elements of a
         if a[i] > a[index_of_item_to_sort]:
-            tmp = a[i]
-            a[i] = a[index_of_item_to_sort]
-            a[index_of_item_to_sort] = tmp  # swap
+            a[i], a[index_of_item_to_sort] = a[index_of_item_to_sort], a[i]  # swap
             index_of_item_to_sort = i  # update new index
         else:  # item to sort is in sorted place -> stop
             break
