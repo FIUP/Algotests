@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - recursive insertion sort exercise
+- divide-et-impera duplicates finder exercise
 
 ## 0.1.1 - 2017-06-04   
 

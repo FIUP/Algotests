@@ -16,6 +16,8 @@
 # limitations under the License.
 
 
+""" Recursive version of classic Insertion Sort algorithm """
+
 import sys
 import time
 

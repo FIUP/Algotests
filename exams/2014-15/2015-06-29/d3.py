@@ -59,7 +59,8 @@ def is_max_heap(a):
     :param a: list
         Array organized as max-heap
     :return: bool
-        Checks if array a is a max-heap
+        Checks if array a is a max-heap.
+        Complexity: O(n)
     """
 
     for i in range(len(a)):
