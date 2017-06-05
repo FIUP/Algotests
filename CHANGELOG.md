@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.1.2 - 2017-06-05  
+
+### Added
+- recursive insertion sort exercise
+
 ## 0.1.1 - 2017-06-04   
 
 ### Added

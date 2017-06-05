@@ -65,8 +65,8 @@ def get_a(length, m=999999):
     """
 
     random_list = list(randint(m, size=length))
-    if random_list[-1] - random_list[0] < s:
-        random_list[-1] = random_list[0] + s + 1  # edit last element if necessary
+    if random_list[-1] - random_list[0] < length:
+        random_list[-1] = random_list[0] + length + 1  # edit last element if necessary
 
     return random_list
 
