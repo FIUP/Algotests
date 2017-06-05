@@ -5,10 +5,11 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - recursive insertion sort exercise
-- divide-et-impera duplicates finder exercise
-- sum key O(n) exercise
+- divide-et-impera duplicates finder
+- sum key O(n)
 - k smallest element in naive, minheap and maxheap ways
 - divide et impera inversions number counter
+- naive O(n) maxheaps merger
 
 ### Fixed
 - pythonic recursive insertion sort exercise
