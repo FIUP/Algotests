@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - divide-et-impera duplicates finder exercise
 - sum key O(n) exercise
 - k smallest element in naive, minheap and maxheap ways
+- divide et impera inversions number counter
 
 ### Fixed
 - pythonic recursive insertion sort exercise
