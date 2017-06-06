@@ -16,9 +16,7 @@
 # limitations under the License.
 
 
-"""
-Pythonic way to calculate prefix codes based on Huffman algorithm.
-"""
+""" Pythonic way to calculate prefix codes based on Huffman algorithm. """
 
 import queue
 
