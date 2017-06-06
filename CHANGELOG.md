@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.1.3 - 2017-06-06  
+
+### Added
+- huffman coding
+
 ## 0.1.2 - 2017-06-05  
 
 ### Added
