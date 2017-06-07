@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.1.4 - 2017-06-07  
+
+### Added
+- complete binary tree checker exercise
+
 ## 0.1.3 - 2017-06-06  
 
 ### Added
