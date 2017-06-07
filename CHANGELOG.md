@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - complete binary tree checker exercise
+- shortest common super-sequence exercise
 
 ## 0.1.3 - 2017-06-06  
 
