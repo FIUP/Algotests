@@ -27,7 +27,7 @@ Qui si raccolgono alcuni esercizi significativi assegnati durante il corso:
 16.  Definire un algoritmo di programmazione dinamica che date due sequenze X = x<sub>1</sub> ... x<sub>m</sub>, Y = y<sub>1</sub> ... y<sub>n</sub> determina una shortest common supersequece.
 17.  Definire un algoritmo di programmazione dinamica che data una sequenza X = x<sub>1</sub> ... x<sub>m</sub> determina una sottostringa (sottosequenza formata da caratteri consecutivi) palindroma di lunghezza massima.
 
-### Esercizi aggiuntivi
+### Esercizi aggiuntivi (cartella extra)
 
 1.  Scrivere un algoritmo per determinare un insieme minimo di monete, di tagli 5, 2 e 1, che totalizzi un dato resto r.
 2.  Date n lezioni A<sub>1</sub>, ..., A<sub>n</sub>, ciascuna con il suo tempo di inizio s<sub>i</sub> e fine f<sub>i</sub> scrivere un algoritmo per allocare tutte le lezioni in un numero minimo di aule.
